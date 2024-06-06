@@ -16,7 +16,7 @@
     "sql",
     "task-manager"
   ],
-  "author": "Emanuel Quintino",
+  "author": "Amilton Lucas",
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
