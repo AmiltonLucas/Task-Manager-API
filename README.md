@@ -1,4 +1,4 @@
-# Task Manager - RESTfull API
+# Task Manager WDC - RESTfull API
 
 ## Entity Relationship Diagram
 
@@ -12,13 +12,15 @@
 - `JSON Web Token (JWT)`
 - `Bcrypt`
 - `Sqlite`
+- `Vitest`
+- `Cors`
 - `Zod`
 
 ## Installation
 
 ```bash
 # clone project
-$ git clone https://github.com/EmanuelQuintino/Task-Manager-API.git
+$ git clone https://github.com/EmanuelQuintino/Task-Manager-WDC-API.git
 
 # install dependencies
 $ npm install
@@ -49,14 +51,24 @@ KEY_TOKEN=""
 |               | `PUT`    | /task/:id | Update an existing task       |
 |               | `DELETE` | /task/:id | Remove an existing task       |
 
-**\*Pagination parameters**
+**\*Pagination parameters:**
 
 - `limit:` Number of items per page.
 - `offset:` Offset index.
 - `filter:` Filter options `"all"`, `"completed"`, `"pending"`, `"late"`.
-- Query example: `"/tasks?limit=10&offset=0&filter=all"`.
+
+**Query example:**
+
+```
+/tasks?limit=10&offset=0&filter=all
+```
+
+## User Test Login
+
+- **email:** user@test.com
+- **password:** A!1234567
 
 ## Links
 
-- [Deploy](https://task-manager-seven-indol.vercel.app/)
-- [Front Repository](https://github.com/EmanuelQuintino/Task-Manager)
+- [Deploy](https://task-manager-wdc.vercel.app/)
+- [Front Repository](https://github.com/EmanuelQuintino/Task-Manager-WDC/)
